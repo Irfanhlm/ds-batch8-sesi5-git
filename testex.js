@@ -26,3 +26,48 @@ while (count < 5) {
     console.log(`While loop iteration: ${count}`);
     count++;
 }
+
+
+// If-else example
+const hour = new Date().getHours();
+let greeting;
+
+if (hour < 12) {
+    greeting = "Good morning";
+} else if (hour < 18) {
+    greeting = "Good afternoon";
+} else {
+    greeting = "Good evening";
+}
+
+console.log(`If-else example: ${greeting}`);
+
+// Switch example
+const day = new Date().getDay();
+let dayName;
+switch (day) {
+    case 0:
+        dayName = "Sunday";
+        break;
+    case 1:
+        dayName = "Monday";
+        break;
+    case 2:
+        dayName = "Tuesday";
+        break;
+    case 3:
+        dayName = "Wednesday";
+        break;
+    case 4:
+        dayName = "Thursday";
+        break;
+    case 5:
+        dayName = "Friday";
+        break;
+    case 6:
+        dayName = "Saturday";
+        break;
+    default:
+        dayName = "Unknown day";
+}
+console.log(`Switch example: Today is ${dayName}`);
