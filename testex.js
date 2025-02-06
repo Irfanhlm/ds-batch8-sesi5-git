@@ -71,3 +71,7 @@ switch (day) {
         dayName = "Unknown day";
 }
 console.log(`Switch example: Today is ${dayName}`);
+
+// Array example with indexing
+const fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
+console.log("The second fruit is", fruits[1]);
